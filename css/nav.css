@@ -1,0 +1,19 @@
+#nav *::after{
+  background-color: rgba(0,0,0,0.5)!important;
+}
+
+/* 导航栏菜单鼠标移入字体放大 */
+#nav #site-name:hover, 
+#nav .menus_item:hover, 
+#nav #search-button:hover{
+  font-size:22px;
+}
+
+#nav-right{
+  flex:1 1 auto;
+  justify-content: flex-end;
+  margin-left: auto;
+  display: flex;
+  flex-wrap:nowrap;
+}
+
